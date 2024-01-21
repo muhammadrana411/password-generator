@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  background: #002339;
+  color: white;
+}
+
+.container{
+  margin: 12%;
+  width: 90%;
+  max-width: 40%;
+}
+
+.display{
+  width: 100%;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  background: white;
+  color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3% 2%;
+  border-radius: 5px;
+}
+
+.container h1{
+  font-weight: 500;
+  font-size: 45px;
+  
+}
+
+.container h1 span{
+color: #019f55;
+border-bottom: 4px solid #019f55;
+padding-bottom:  2%;
+
+}
+
+.display img{
+  width: 5%;
+  cursor: pointer;
+}
+
+.display input{
+  border: 0;
+  outline: 0;
+  font-size: 18px;
+}
+
+.container button img{
+  width: 8%;
+  margin-right: 5%;
+}
+
+.container button{
+  border: 0;
+  outline: 0;
+  background: #019f55;
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  padding: 2% 10%;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px){
+  .container {
+    /*margin: 10%;*/
+    max-width: 100%;
+    padding-right: 10%;
+    padding-left: 0;
+    width: 100%;
+  }
+
+  .container button{
+    display: flex;
+    align-items: center;
+    padding: 3% 10%;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+}
